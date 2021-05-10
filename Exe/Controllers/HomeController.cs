@@ -13,11 +13,11 @@ namespace Madlibs.Controllers
     }
 
     [Route("result")]
-    public ActionResult Result(string noun)
+    public ActionResult Result(string noun1)
     {
       MadlibsVariables userMadlibsVariables = new();
-      userMadlibsVariables.Noun = noun;
-      return View();
+      userMadlibsVariables.Noun1 = noun1;
+      return View(userMadlibsVariables);
     }
   }
 }

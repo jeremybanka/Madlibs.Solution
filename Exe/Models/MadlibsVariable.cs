@@ -2,6 +2,6 @@ namespace Madlibs.Models
 {
   public class MadlibsVariables
   {
-    public string Noun { get; set; }
+    public string Noun1 { get; set; }
   }
 }
